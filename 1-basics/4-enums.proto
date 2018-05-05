@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+/*
+This is multiple comments
+*/
+
+message Person {
+  // this is comments
+  int32 age = 1;
+  string first_name = 2;  // this is also comment
+  string last_name = 3;
+  // small_picture represents a small .jpg file
+  bytes small_picture = 4;
+  bool is_profile_verified = 5;
+  // height of the person in cms
+  float height = 6;
+  repeated string friends_emails = 7;
+
+  enum EyeColor {
+    UKKNWON_EYE_COLOR = 0; // default
+    EYE_GREEN = 1;
+    EYE_BROWN = 2;
+    EYE_BLACK = 3;
+  }
+
+  EyeColor eye_color = 0;
+}
