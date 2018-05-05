@@ -33,5 +33,5 @@
 
 ## Resources
 
-- (proto3)[https://www.udemy.com/protocol-buffers/]
-- (google api)[https://github.com/googleapis/googleapis/blob/master/google/type/date.proto]
+- [proto3](https://www.udemy.com/protocol-buffers/)
+- [google api](https://github.com/googleapis/googleapis/blob/master/google/type/date.proto)
